@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Game Board for Triples
  * 
- * @author (your name) 
+ * @author  
  * @version (a version number or a date)
  */
 public class GameBoard extends World
@@ -13,7 +13,7 @@ public class GameBoard extends World
     public GameBoard()
     {   
         super(430, 600, 1, false); 
-        new Tester("Scorekeeper");
+        new Tester(NUM_CARDS_IN_DECK);
         //
     }
 
